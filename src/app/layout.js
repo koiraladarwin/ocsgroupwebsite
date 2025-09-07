@@ -14,6 +14,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Ocs Business Solution",
   description: "Created by Ocs Business Solution",
+  icons: {
+    icon: '/image.png',
+  },
 };
 
 export default function RootLayout({ children }) {
